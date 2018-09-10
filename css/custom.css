@@ -1,0 +1,560 @@
+/*TYPOGRAPHY*/
+
+h4,h3,h5,td2,td{
+    font-family: 'Muli', sans-serif;
+}
+
+td1{
+    font-weight: bolder;
+    font-size: 13px;
+    font-family: 'Muli', sans-serif;
+}
+
+th1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+p1{
+    font-size: 10px;
+    font-family: 'Muli', sans-serif;
+}
+
+p3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+table,th,td {
+    padding: 10px;
+    border: 1px;
+    width: 100%
+}
+
+table1{
+    width: 100%;
+    border-spacing: 30px;
+    border-bottom: solid 3px #00bb77;
+}
+
+table2{
+    width: 100%;
+    border-bottom: solid 3px #ff8533;
+}
+
+td1{
+    width: 100px;
+    height: 200px;
+}
+
+td2{
+    width: 150px;
+    height: 200px;
+}
+
+
+
+
+.caption {
+    position: absolute;
+    margin-left: 10%;
+    width:250px;
+    height: 100%;
+    overflow: hidden;
+    top: 0%;
+    background-color: rgba(255,255,255,0.6);
+}
+.caption-small {
+/*
+    position:absolute;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+*/
+    position:absolute;
+    z-index: 1;
+    background: white;
+    
+}
+.logo1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.menu {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+
+.menu-content{
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
+
+
+.items{
+    padding-left: 25px;
+    padding-right: 18px;
+    padding-top: 60px;
+}
+
+
+.row{
+    padding-top: 20px;
+    padding-left: 17px;
+}
+
+
+/*IMAGES*/
+
+#woman { 
+  background: url(../images/woman1.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+    
+}
+
+#womanlastday { 
+  background: url(../images/woman-yesterday.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+    
+}
+
+#w1605 { 
+  background: url(../images/W1605.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+    
+}
+
+#w1505 { 
+  background: url(../images/W1505.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+    
+}
+
+#w1405 { 
+  background: url(../images/W1405.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+    
+}
+
+#w1305 { 
+  background: url(../images/W1305.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+    
+}
+
+#w1205 { 
+  background: url(../images/W1205.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+    
+}
+
+#man { 
+  background: url(../images/manstyle.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+    
+}
+
+#manlastday { 
+  background: url(../images/man1.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+    
+}
+
+#m1605 { 
+  background: url(../images/M1605.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+    
+}
+
+#m1505 { 
+  background: url(../images/M1505.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+    
+}
+
+#m1405 { 
+  background: url(../images/M1405.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+    
+}
+
+#m1305 { 
+  background: url(../images/M1305.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+    
+}
+
+#m1205 { 
+  background: url(../images/M1205.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+    
+}
+
+.logo{
+    float: left;
+    margin:0;
+    padding-left: 20px;
+    width: 75%;
+}
+ 
+img {
+    width:100%;
+}
+
+ p1 img { 
+     display:none; 
+}
+
+
+ p1:hover img { 
+     display:block; 
+     position: relative;
+     z-index: 100;
+
+}
+
+
+
+.myButtonLink {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: url('IMAGE/aboutUs.jpg') bottom;
+	text-indent: -99999px;
+}
+.myButtonLink:hover {
+	background-position: 0 0;
+}
+
+
+.modal-box {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  width: 98%;
+  background: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+}
+
+.modal-box header,
+.modal-box .modal-header {
+  padding: 1.25em 1.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+.modal-box header h3,
+.modal-box header h4,
+.modal-box .modal-header h3,
+.modal-box .modal-header h4 { margin: 0; }
+
+.modal-box .modal-body { padding: 2em 1.5em; }
+
+.modal-box footer,
+.modal-box .modal-footer {
+  padding: 1em;
+  border-top: 1px solid #ddd;
+  background: rgba(0, 0, 0, 0.02);
+  text-align: right;
+}
+
+.modal-overlay {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+
+a.close {
+  line-height: 1;
+  font-size: 1.5em;
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  text-decoration: none;
+  color: #bbb;
+}
+
+a.close:hover {
+  color: #222;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+
+ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li1 {
+    float: left;
+}
+
+li1 a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+hr{
+    display: block;
+    border-style: solid;
+    border-width: 3px:
+}
+
+@media (min-width: 32em) {
+  .modal-box { width: 70%; }
+}
+
+
+
+
+/* mobile */
+
+@media (max-width: 767px) {
+    
+    .items1{
+    padding-top: 50px;
+}
+.body1{
+    padding-top: 00px;
+}
+.bottombud{
+    padding-left: 25px;
+    padding-top: 50px;
+}
+.myer{
+    padding-left: 25px;
+    padding-top: px;
+}
+}
+
+
+
+
+/* tablet */
+
+@media (min-width: 767px) and (max-width: 991px) {
+}
+
+
+/* medium devices */
+
+@media (min-width: 991px) and (max-width: 1200px) {
+}
+
+/* large devices */
+
+@media (min-width: 1200px) {
+}
+
+
+
+/*Dropdownmenu*/
+/*@import url(https://fonts.googleapis.com/css?family=Raleway:400,900,700,500,300);*/
+/*
+body {
+  
+  background-position: 50%;
+  background-repeat: no-repeat;
+  font-family: 'Raleway', sans-serif;
+}
+*/
+
+
+
+
+
+.navicon {
+  width: 20%;
+  background: transparent;
+/*    position of the menu*/
+  margin: 30px auto; 
+  position: relative;
+
+  width: 60px;
+  display: block;
+  z-index: 99;
+  -webkit-transition: linear 0.2s all;
+  transition: linear 0.2s all;
+}
+.navicon:before, .navicon:after {
+  background: #000000;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  content: "";
+  height: 4px;
+  left: 0;
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
+  width: 30px;
+}
+.navicon:before {
+  box-shadow: #000000 0 7px 0 0;
+  position: absolute;
+  top: 0;
+}
+.navicon:after {
+  position: absolute;
+  top: 14px;
+}
+.navicon--active {
+  margin-top: px;
+  -webkit-transition: linear 0.5s all;
+  transition: linear 0.5s all;
+}
+.navicon--active:before {
+  box-shadow: transparent 0 0 0 0;
+  top: -15px;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+}
+.navicon--active:after {
+  top: -15px; /*sau khi mo*/
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
+}
+
+.toggle {
+  display: block;
+  margin: -35px auto;
+  width: 30%;
+  background-color:white;
+  display: block;
+  opacity: 0;
+  -webkit-transition: ease-in 0.5s all;
+  transition: ease-in 0.5s all;
+  -webkit-transform: translateY(-200%);
+          transform: translateY(-200%);
+  min-width: 250px;
+}
+.toggle--active {
+  display: block;
+  opacity: 1;
+  -webkit-transition: ease-in 0.5s all;
+  transition: ease-in 0.5s all;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.toggle__menu {
+
+    padding-top: 35px;
+    padding-right: 65px
+}
+.toggle__menu li {
+  display: block;
+  margin: 5px;
+}
+.toggle__menu li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: linear 0.5s all;
+  transition: linear 0.5s all;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+
+.items1{
+    padding-top: 80px;
+}
+
+.bottombud{
+    padding-left: 25px;
+    padding-top: 60px;
+}
+.myer{
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
